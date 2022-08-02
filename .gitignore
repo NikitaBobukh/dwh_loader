@@ -103,6 +103,9 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
+# vccode
+.venv/
+
 # Environments
 .env
 .venv
@@ -183,3 +186,4 @@ elt_config.py
 fb_config.py
 analysts_config.py
 /config/cred/
+.vscode/settings.json
