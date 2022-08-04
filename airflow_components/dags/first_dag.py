@@ -5,7 +5,7 @@ from airflow.operators.bash import BashOperator
 
 with DAG(
     dag_id="example_python_operator",
-    schedule_interval='* 10 * * * *',
+    schedule_interval='0 0 * * * *',
     start_date=datetime(year=2022, month=8, day=1),
     catchup=False
 ) as dag:
