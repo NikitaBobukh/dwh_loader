@@ -1,7 +1,6 @@
 import math
 import os
 from datetime import datetime, timedelta
-from typing import Optional
 
 import pandas as pd
 from pyparsing import col
