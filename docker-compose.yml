@@ -19,7 +19,7 @@ x-airflow-common:
     - ./airflow_components/dags:/opt/airflow/dags
     - ./airflow_components/logs:/opt/airflow/logs
     - ./airflow_components/plugins:/opt/airflow/plugins
-    - ./Components:/opt/airflow/Components
+    - ./loader:/opt/airflow/loader
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     &airflow-common-depends-on
